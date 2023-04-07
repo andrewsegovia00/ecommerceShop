@@ -27,7 +27,7 @@ export default async function handler(
         const body: Req = JSON.parse(req.body);
 
         const stripe = new Stripe(process.env.STRIPE_SECRET_KEY ?? '', {
-            apiVersion: '2022-11-15',
+            apiVersion: '2020-08-27',
         });
 
         const session = await stripe.checkout.sessions.create({
