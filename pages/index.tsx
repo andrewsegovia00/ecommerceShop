@@ -8,7 +8,7 @@ import Header from "../components/Header";
 export const getServerSideProps: GetServerSideProps = async (context) => {
     console.log(process.env.STRIPE_SECRET_KEY)
     const stripe = new Stripe(process.env.STRIPE_SECRET_KEY ?? '', {
-        apiVersion: '2022-11-15',
+        apiVersion: '2020-08-27',
     });
 
     const res = await stripe.prices.list({
