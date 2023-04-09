@@ -38,8 +38,8 @@ const Header: FunctionComponent = () => {
 
     return (
         <header className="relative bg-white">
-            <nav aria-label="Top" className="max-w-7xl mx-auto sm:px-4 lg:px-4">
-                <div className="relative pl-4 pr-6 pb-14 sm:static sm:px-2 sm:pb-0">
+            <nav aria-label="Top" className="w-auto px-4 sm:px-6">
+                <div className="relative px-4 pb-2 sm:static ">
                     <div className="h-16 flex items-center justify-between">
                         {/* Logo */}
                         <div className="flex-1 flex text-3xl font-semibold">
@@ -50,7 +50,7 @@ const Header: FunctionComponent = () => {
 
                         <div className="flex-1 flex items-center justify-end">
                             {/* Cart */}
-                            <Popover className="ml-4 flow-root text-sm lg:relative lg:ml-8 z-50">
+                            <Popover className="mr-8 flow-root text-sm lg:relative lg:ml-8 z-50">
                                 <Popover.Button className="group -m-2 p-2 flex items-center">
                                     <ShoppingBagIcon
                                         className="flex-shrink-0 h-6 w-6 text-gray-400 group-hover:text-gray-500"
