@@ -31,8 +31,8 @@ export default async function handler(
         });
 
         const session = await stripe.checkout.sessions.create({
-            success_url: 'http://localhost:3000/success',
-            cancel_url: 'http://localhost:3000/cancel',
+            success_url: 'https://main--sunny-travesseiro-feb150.netlify.app/success',
+            cancel_url: 'https://main--sunny-travesseiro-feb150.netlify.app/cancel',
             line_items: body.lineItems,
             mode: 'payment',
         });
