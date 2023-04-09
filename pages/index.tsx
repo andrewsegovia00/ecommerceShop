@@ -36,7 +36,7 @@ const Home: NextPage<Props> = ({ prices }) => {
         <main className="bg-gray-100 min-h-screen">
             <Header />
 
-            <div className="max-w-5xl mx-auto py-8">
+            <div className="w-auto mx-10 py-8">
                 <div className="flex items-center justify-between border-b pb-3">
                     <h1 className="font-semibold tracking-wide leading-10 text-xl lg:text-3xl">
                         Trending Games
