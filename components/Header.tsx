@@ -38,13 +38,13 @@ const Header: FunctionComponent = () => {
 
     return (
         <header className="relative bg-white">
-            <nav aria-label="Top" className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                <div className="relative px-4 pb-14 sm:static sm:px-0 sm:pb-0">
+            <nav aria-label="Top" className="max-w-7xl mx-auto sm:px-4 lg:px-4">
+                <div className="relative pl-4 pr-6 pb-14 sm:static sm:px-2 sm:pb-0">
                     <div className="h-16 flex items-center justify-between">
                         {/* Logo */}
-                        <div className="flex-1 flex">
+                        <div className="flex-1 flex text-3xl font-semibold">
                             <a href="#">
-                                Home
+                                Game-On
                             </a>
                         </div>
 
