@@ -5,7 +5,7 @@ const Success: NextPage = () => {
     return (
         <div className="flex flex-col items-center justify-center h-screen">
             <h1 className="text-4xl font-bold text-center">
-                Thanks for your Purchase!
+                Thank you for your patronage!
             </h1>
             <Link href="https://main--sunny-travesseiro-feb150.netlify.app/success">
                 <a className="mt-8 px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600">
