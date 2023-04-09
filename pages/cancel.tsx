@@ -9,7 +9,7 @@ const Cancel: NextPage = () => {
                 <br />
                 Thanks for trying out the store
             </h1>
-            <Link href="/">
+            <Link href="https://main--sunny-travesseiro-feb150.netlify.app">
                 <a className="mt-8 px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600">
                     Go back to home page
                 </a>
